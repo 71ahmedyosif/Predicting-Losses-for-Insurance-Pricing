@@ -21,7 +21,7 @@ Categorical predictors were dropped, and numerical predictors were standardized.
 Earned Exposure and results from a preliminary GLM model were used as the model offset. The offset term was constructed by multiplying the two. 
 
 ## Hyper Parameter Tuning:
-5-fold CV was implemented to determine optimal model for each population segment. 
+5-fold CV and Random Grid Search was implemented to determine optimal model for each population segment.  
 
 ## Performance Metrics:
 ### Gini Coefficient: 
@@ -33,7 +33,7 @@ Comparison between the average actual and predicted values after sorting the two
 The final results were compared against the results from the initial Baseline Models (GLM). 
 ![Results](/assets/img/results.PNG)
 
-
+The proposed models provided slight improvememts in distinguishing between high and low risk properties. As well as, significant improvements in predictive performance.
 
 
 
