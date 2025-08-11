@@ -7,7 +7,7 @@ The optimal number of sub-populations was determined by plotting the BIC Score a
 
 # Modeling Approach:
 For each sub-population, a tweedie regression model was developed using LightGBM to predict the annualized losses. 
-![Model Setup](/assets/model_setup.PNG)
+![Model Setup](/assets/img/model_setup.PNG)
 
 ## Data Split:
 
