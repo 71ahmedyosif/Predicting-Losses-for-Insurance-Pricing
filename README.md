@@ -2,8 +2,8 @@
 Prior to developing prediction models, different sub-populations were identified from the dataset. This was done using GMM (Gausian Mixture Modeling), and follows an unsupervised machine learning approach to identify different sub-populations.
 
 The optimal number of sub-populations was determined by plotting the BIC Score against the number of clusters, and selecting the least number of clusters that led to no signficant change in BIC Score (Elbow Method). 
-![Segmentation](/assets/Segmentation.PNG)
-![Segmentation Analysis](/assets/anal_segments.PNG)
+![Segmentation](/assets/img/Segmentation.PNG)
+![Segmentation Analysis](/assets/img/anal_segments.PNG)
 
 # Modeling Approach:
 For each sub-population, a tweedie regression model was developed using LightGBM to predict the annualized losses. 
@@ -29,7 +29,7 @@ Gini Coefficient: The area under the Lorenz Curve for the comulative fraction of
 
 ## Model Evaluation:
 The final results were compared against the results from the initial Baseline Models (GLM). 
-![Results](/assets/results.PNG)
+![Results](/assets/img/results.PNG)
 
 
 
