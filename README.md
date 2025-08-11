@@ -1,5 +1,5 @@
 # Pre-Modeling:
-Prior to developing prediction models, different sub-populations were identified from the dataset. This was done using GMM (Gausian Mixture Modeling), and follows an unsupervised machine learning approach to identify different sub-populations.
+Prior to developing prediction models, different sub-populations were identified from the dataset. This was done using GMM (Gausian Mixture Modeling), and follows an unsupervised machine learning approach to identify meaningful sub-populations from the original dataset provided by the client.
 
 The optimal number of sub-populations was determined by plotting the BIC Score against the number of clusters, and selecting the least number of clusters that led to no signficant change in BIC Score (Elbow Method). 
 ![Segmentation](/assets/img/Segmentation.PNG)
@@ -24,9 +24,9 @@ Earned Exposure and results from a preliminary GLM model were used as the model 
 5-fold CV was implemented to determine optimal model for each population segment. 
 
 ## Performance Metrics:
-###Gini Coefficient: 
+### Gini Coefficient: 
 The area under the Lorenz Curve for the cumulative fraction of losses plotted against the cumalitive fraction of earned exposure. High Gini = Model is able to distinguish between high and low risk properties. 
-###100-Bin R-Sqaured: 
+### 100-Bin R-Sqaured: 
 Comparison between the average actual and predicted values after sorting the two in ascending order (seperately) and splitting into 100 quantiles. High 100-Bin R-Squared = Model is able to accurately predict the annualized losses. 
 
 ## Model Evaluation:
