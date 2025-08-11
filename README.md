@@ -2,7 +2,7 @@
 Prior to developing prediction models, different sub-populations were identified from the dataset. This was done using GMM (Gausian Mixture Modeling), and follows an unsupervised machine learning approach to identify different sub-populations.
 
 The optimal number of sub-populations was determined by plotting the BIC Score against the number of clusters, and selecting the least number of clusters that led to no signficant change in BIC Score (Elbow Method). 
-![Segmentation](/assets/Segmentation.png)
+![Segmentation](/assets/Segmentation.PNG)
 
 # Modeling Approach:
 For each sub-population, a tweedie regression model was developed using LightGBM to predict the annualized losses. 
