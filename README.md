@@ -33,7 +33,7 @@ Comparison between the average actual and predicted values after sorting the two
 The final results were compared against the results from the initial Baseline Models (GLM). 
 ![Results](/assets/img/results.PNG)
 
-The proposed models provided slight improvement in distinguishing between high and low risk properties. As well as, significant improvement in predictive performance.
+The proposed models provided slight improvement when distinguishing between high and low risk properties. As well as, significant improvement in predictive performance.
 
 
 
