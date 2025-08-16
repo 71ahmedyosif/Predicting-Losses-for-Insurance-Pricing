@@ -1,3 +1,6 @@
+# How to Run
+Since you will need to use your own data to try this code, please make sure that the dataset is clean prior to running any code. With that being said, the Jupyter Notebook files contains cells for Clustering and Modelling only. 
+
 # Pre-Modeling:
 Prior to developing prediction models, different sub-populations were identified from the dataset. This was done using GMM (Gausian Mixture Modeling), and follows an unsupervised machine learning approach to identify meaningful sub-populations from the original dataset provided by the client.
 
